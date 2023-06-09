@@ -73,5 +73,12 @@ orgs.newOrg('DummyOrganisationTest') {
         secret_scanning_push_protection: "disabled",
         web_commit_signoff_required: false,
       },
+      orgs.newRepo('test_dependabot') {
+        allow_update_branch: false,
+        has_wiki: false,
+        secret_scanning: "disabled",
+        secret_scanning_push_protection: "disabled",
+        web_commit_signoff_required: false,
+      },
     ],
 }
