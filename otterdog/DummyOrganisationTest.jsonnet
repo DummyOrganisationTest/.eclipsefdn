@@ -52,7 +52,7 @@ orgs.newOrg('DummyOrganisationTest') {
     },
     orgs.newRepo('jakartaee_cdi-tck_test') {
       allow_update_branch: false,
-      default_branch: "master",
+      default_branch: "main",
       dependabot_alerts_enabled: false,
       secret_scanning: "disabled",
       secret_scanning_push_protection: "disabled",
