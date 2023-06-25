@@ -57,6 +57,14 @@ orgs.newOrg('DummyOrganisationTest') {
       secret_scanning: "disabled",
       secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
+    },
+    orgs.newRepo('jakartaee_expression-language_test') {
+      allow_update_branch: false,
+      default_branch: "master",
+      dependabot_alerts_enabled: false,
+      secret_scanning: "disabled",
+      secret_scanning_push_protection: "disabled",
+      web_commit_signoff_required: false,
     },    
     orgs.newRepo('jarkataee_injection_test') {
       allow_update_branch: false,
